@@ -4,7 +4,6 @@ class Main {
   //varaibles  
  String [] endings = {"Ing", "end", "axe", "gex", "Goh"};
  int numOfStudent = Keyboard.getInt("Please enter the amount of students");
- String output = " ";
  
  String ending;
  
@@ -20,17 +19,10 @@ class Main {
  //adding name and endings together
  ending = endings[N5.randomInt(4)];
  String username = studentName + ending;
+
+ String output = "the username is " + username;
+
+ Screen.display(output, "usernames");
  }
-//display
- for(int index = 0; index < numOfSudents; index ++){
- output = output + usernameTwo + "\n";
  }
-
- Screen.display(output,"username generator");
-
- }
-
-
-
-  
 }
