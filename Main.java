@@ -1,10 +1,9 @@
 class Main {
   public static void main(String[] args) {
 
-  //varaibles  
+  //variables  
  String [] endings = {"Ing", "end", "axe", "gex", "Goh"};
  int numOfStudent = Keyboard.getInt("Please enter the amount of students");
- 
  String ending;
  
 
@@ -19,10 +18,10 @@ class Main {
  //adding name and endings together
  ending = endings[N5.randomInt(4)];
  String username = studentName + ending;
-
+//output
  String output = "the username is " + username;
 
  Screen.display(output, "usernames");
  }
  }
-}
+}//i accidently handed the assignment in before i completed the code so i cannot change the onenote 
